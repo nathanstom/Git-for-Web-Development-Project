@@ -1,0 +1,170 @@
+ https://codepen.io/NathanStom/pen/vYmGOOW?editors=1100
+ 
+ 1. What is Semantic HTML? 
+	Semantic HTML is HTML that is used to give meaning.
+
+    2. What is HTML used for? 
+	HTML is used for describing the structure of a web page.
+
+    3. What is an attribute and where do we put it? 
+	An attribute is used to change elements in html and they are always in the opening bag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag stands for header 1 and it is used to give importance to a section and make it stand out.
+
+    5. Name two tags that have required attributes
+	<a> <img>
+
+    6. What do we put in the head of our HTML document? 
+	<!DOCTYPE html>
+
+    7. What is an id? 
+	An ID can be used to indentify an element in HTML
+
+    8. What elements can I add an id to? 
+	All of them
+
+    9. How many times can I use the same id on a page? 
+	You can use them once.
+
+    10. What is a class? 
+	Class is used to refer to a specific thing
+
+    11. What elements can I add a class to? 
+	You can add all. 
+
+    12. How many times can I use the same class on a page? 
+	As many times as you need to
+
+    13. How do I get my link to open in a new tab?
+	target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+	If what you wanted can not be accessed something else
+	will fill its place
+
+    15. How do I reference an id?
+	You use a hashtag followed by the id
+
+    16. What is the difference between a section and a div
+	Section means all content inside are grouped together
+	while Div does not besides telling you they are in a 
+	class
+
+    17. What is CSS used for? 
+	It is used to style your webpage.
+
+
+    18. How to we select an element? Example - every h2 on the page
+	h2 {
+	
+	}
+	
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class is a name followed with a full stop whilst an ID is a name followed by a hash sign.You would use an ID when
+	identifying a single element and a class would be used for more than one element. 
+
+
+    20. How do we select classes in CSS?
+	You would use . and then the element name when selecting a class in CSS. 
+
+
+    21. How do we select a p element with a single class of “human””?
+	You would use .human to get the p element. 
+
+
+    22. What is a parent child selector? When would this be useful? 
+	A parent child selector selects all elements within a certain element. This would be useful when you need to 
+	change many elements at the same time. 
+
+
+    23. How do you select all links within a div with the class of sidebar?
+	COME BACK TO THIS ONE FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+
+
+    24. What is a pseudo selector?
+	It selects elements that are in a certain state. 
+
+
+    25. What do we use the change the spacing between lines?
+	We use the line-height property.
+
+
+    26. What do we use to change the spacing between letters?
+	We use the letter-spacing property.
+
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	We use the text-transform property. 
+
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	border: dotted black 1px;
+
+
+    29. How do I select everything on the page? 
+	main{
+
+	}
+
+
+    30. How do I write a comment in CSS?
+	You would use /* and */
+
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	$  pwd
+
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	$ dir
+
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	$ rm (filename)
+	You should be careful with this because command line has no recycle bin so that 
+	means whatever is deleted is then deleted permanetely.
+
+
+    34. Why should I use version control? 
+	Version Control should be used because it keeps track of every modification that is made
+	so if there is a mistake, someone can go back to a time before said mistake
+
+    35. How often should I commit to github?
+	A few times per hour or whenever you change something it should be noted
+
+    36. What is the command we would use to push our repo up to github? 
+	$ git push -u origin
+
+    37. Walk me through Lambda's git flow. 
+	Create your own version of the repo - Fork
+ 	Clone the repo
+ 	Create a branch git checkout -b 'firstName-lastName'
+ 	Add your name to the list of names below.
+ 	Run your usual git commands or adding/commiting and pushing Be sure to push to your branch
+ 	Create a Pull-Request to submit your work
+ 	Use your own student fork as the base (compare across forks, base-fork -> master).
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	Inline elements usually just change how something may look in the line
+	while block elements will usually change how they are structed entirely
+	and even creates new lines
+
+    2. What happens when an element is positioned absolutely? 
+	When an element is positioned absolutely that means that it will never 
+	move from the position its at, in other words "fixed"
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	To do this you can make use of the "display" tag in css but specifically "display: inline-block"
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default	
+	<div>, <footer>, and <header> are all display blocks by default.
+	<a>, <img>, and <var> are all display inline by default.
+	<button> is display inline-block by default.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+	The box model is used to create the design and layout of a web page. It consists of the content, padding, border, and margin.
+	An easy way to use the box model is through using flex. 
